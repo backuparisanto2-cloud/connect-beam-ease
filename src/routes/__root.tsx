@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Halaman login hotspot MikroTik Griya Arca Kost Purwokerto: preview, manifest aset, dan unduhan paket." },
       { name: "author", content: "Lovable" },
       { property: "og:title", content: "Griya Arca Kost WiFi — Hotspot Purwokerto" },
-      { property: "og:description", content: "Halaman login hotspot MikroTik Griya Arca Kost Purwokerto." },
+      { property: "og:description", content: "Halaman login hotspot MikroTik Griya Arca Kost Purwokerto: preview, manifest aset, dan unduhan paket." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Griya Arca Kost WiFi — Hotspot Purwokerto" },
+      { name: "twitter:description", content: "Halaman login hotspot MikroTik Griya Arca Kost Purwokerto: preview, manifest aset, dan unduhan paket." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/10adb91c1064bd69a3655ae83bcdf038/id-preview-87546e54--0eced702-8bf9-49a3-8dd1-be64b6bc40ab.lovable.app-1786535728548.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/10adb91c1064bd69a3655ae83bcdf038/id-preview-87546e54--0eced702-8bf9-49a3-8dd1-be64b6bc40ab.lovable.app-1786535728548.png" },
     ],
     links: [
       {
