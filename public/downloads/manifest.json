@@ -1,24 +1,24 @@
 {
   "archive": "griya-arca-hotspot.zip",
-  "builtAt": "2026-08-12T12:04:53.356Z",
-  "fileCount": 20,
-  "zipBytes": 253171,
-  "totalBytes": 291100,
+  "builtAt": "2026-08-12T12:09:29.787Z",
+  "fileCount": 21,
+  "zipBytes": 255148,
+  "totalBytes": 299562,
   "files": [
     {
       "name": "alogin.html",
-      "bytes": 5017,
-      "modifiedAt": "2026-08-12T12:04:35.766Z"
+      "bytes": 5723,
+      "modifiedAt": "2026-08-12T12:09:19.372Z"
     },
     {
       "name": "error.html",
-      "bytes": 2311,
-      "modifiedAt": "2026-08-12T12:04:35.767Z"
+      "bytes": 2352,
+      "modifiedAt": "2026-08-12T12:09:19.373Z"
     },
     {
       "name": "faq.html",
-      "bytes": 13480,
-      "modifiedAt": "2026-08-12T12:04:35.767Z"
+      "bytes": 13521,
+      "modifiedAt": "2026-08-12T12:09:19.373Z"
     },
     {
       "name": "img/bg-morning1.webp",
@@ -67,13 +67,18 @@
     },
     {
       "name": "login.html",
-      "bytes": 6759,
-      "modifiedAt": "2026-08-12T12:04:35.767Z"
+      "bytes": 7465,
+      "modifiedAt": "2026-08-12T12:09:19.373Z"
     },
     {
       "name": "logout.html",
-      "bytes": 2509,
-      "modifiedAt": "2026-08-12T12:04:35.767Z"
+      "bytes": 2550,
+      "modifiedAt": "2026-08-12T12:09:19.373Z"
+    },
+    {
+      "name": "preload.js",
+      "bytes": 936,
+      "modifiedAt": "2026-08-12T12:09:13.098Z"
     },
     {
       "name": "README.txt",
@@ -82,23 +87,23 @@
     },
     {
       "name": "redirect.html",
-      "bytes": 1465,
-      "modifiedAt": "2026-08-12T12:04:35.767Z"
+      "bytes": 1506,
+      "modifiedAt": "2026-08-12T12:09:19.373Z"
     },
     {
       "name": "rlogin.html",
-      "bytes": 3141,
-      "modifiedAt": "2026-08-12T12:04:35.767Z"
+      "bytes": 3847,
+      "modifiedAt": "2026-08-12T12:09:19.373Z"
     },
     {
       "name": "status.html",
-      "bytes": 3473,
-      "modifiedAt": "2026-08-12T12:04:35.767Z"
+      "bytes": 3514,
+      "modifiedAt": "2026-08-12T12:09:19.374Z"
     },
     {
       "name": "style.css",
-      "bytes": 16665,
-      "modifiedAt": "2026-08-12T12:00:23.993Z"
+      "bytes": 21868,
+      "modifiedAt": "2026-08-12T12:08:01.757Z"
     },
     {
       "name": "theme.js",
