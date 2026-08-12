@@ -1,24 +1,24 @@
 {
   "archive": "griya-arca-hotspot.zip",
-  "builtAt": "2026-08-12T11:50:49.844Z",
+  "builtAt": "2026-08-12T11:54:15.692Z",
   "fileCount": 20,
-  "zipBytes": 248624,
-  "totalBytes": 278913,
+  "zipBytes": 251237,
+  "totalBytes": 281549,
   "files": [
     {
       "name": "alogin.html",
-      "bytes": 3407,
-      "modifiedAt": "2026-08-12T11:50:38.612Z"
+      "bytes": 3415,
+      "modifiedAt": "2026-08-12T11:53:55.759Z"
     },
     {
       "name": "error.html",
-      "bytes": 2207,
-      "modifiedAt": "2026-08-12T11:50:38.594Z"
+      "bytes": 2215,
+      "modifiedAt": "2026-08-12T11:53:55.763Z"
     },
     {
       "name": "faq.html",
-      "bytes": 13376,
-      "modifiedAt": "2026-08-12T11:50:38.720Z"
+      "bytes": 13384,
+      "modifiedAt": "2026-08-12T11:53:55.763Z"
     },
     {
       "name": "img/bg-morning1.webp",
@@ -52,8 +52,8 @@
     },
     {
       "name": "img/favicon.png",
-      "bytes": 7052,
-      "modifiedAt": "2026-08-12T11:40:06.696Z"
+      "bytes": 9632,
+      "modifiedAt": "2026-08-12T11:54:01.501Z"
     },
     {
       "name": "img/logo.svg",
@@ -67,13 +67,13 @@
     },
     {
       "name": "login.html",
-      "bytes": 5141,
-      "modifiedAt": "2026-08-12T11:50:38.651Z"
+      "bytes": 5157,
+      "modifiedAt": "2026-08-12T11:53:55.763Z"
     },
     {
       "name": "logout.html",
-      "bytes": 2405,
-      "modifiedAt": "2026-08-12T11:50:38.713Z"
+      "bytes": 2413,
+      "modifiedAt": "2026-08-12T11:53:55.763Z"
     },
     {
       "name": "README.txt",
@@ -83,17 +83,17 @@
     {
       "name": "redirect.html",
       "bytes": 1369,
-      "modifiedAt": "2026-08-12T11:50:38.695Z"
+      "modifiedAt": "2026-08-12T11:53:55.763Z"
     },
     {
       "name": "rlogin.html",
       "bytes": 1539,
-      "modifiedAt": "2026-08-12T11:50:38.701Z"
+      "modifiedAt": "2026-08-12T11:53:55.763Z"
     },
     {
       "name": "status.html",
-      "bytes": 3369,
-      "modifiedAt": "2026-08-12T11:50:38.663Z"
+      "bytes": 3377,
+      "modifiedAt": "2026-08-12T11:53:55.763Z"
     },
     {
       "name": "style.css",
