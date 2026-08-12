@@ -1,0 +1,109 @@
+{
+  "archive": "gracie-hotspot.zip",
+  "builtAt": "2026-08-12T11:00:48.868Z",
+  "fileCount": 20,
+  "zipBytes": 248550,
+  "totalBytes": 278717,
+  "files": [
+    {
+      "name": "alogin.html",
+      "bytes": 3387,
+      "modifiedAt": "2026-08-12T10:59:05.595Z"
+    },
+    {
+      "name": "error.html",
+      "bytes": 2191,
+      "modifiedAt": "2026-08-12T10:59:05.596Z"
+    },
+    {
+      "name": "faq.html",
+      "bytes": 13332,
+      "modifiedAt": "2026-08-12T10:59:14.259Z"
+    },
+    {
+      "name": "img/bg-morning1.webp",
+      "bytes": 55360,
+      "modifiedAt": "2026-08-12T10:46:34.383Z"
+    },
+    {
+      "name": "img/bg-morning2.webp",
+      "bytes": 55166,
+      "modifiedAt": "2026-08-12T10:46:35.253Z"
+    },
+    {
+      "name": "img/bg-morning3.webp",
+      "bytes": 55024,
+      "modifiedAt": "2026-08-12T10:46:36.378Z"
+    },
+    {
+      "name": "img/bg-night1.webp",
+      "bytes": 6144,
+      "modifiedAt": "2026-08-12T10:46:36.473Z"
+    },
+    {
+      "name": "img/bg-night2.webp",
+      "bytes": 31148,
+      "modifiedAt": "2026-08-12T10:46:36.629Z"
+    },
+    {
+      "name": "img/bg-night3.webp",
+      "bytes": 16200,
+      "modifiedAt": "2026-08-12T10:46:36.745Z"
+    },
+    {
+      "name": "img/favicon.png",
+      "bytes": 7052,
+      "modifiedAt": "2026-08-12T10:59:28.674Z"
+    },
+    {
+      "name": "img/logo.svg",
+      "bytes": 596,
+      "modifiedAt": "2026-08-12T10:54:24.618Z"
+    },
+    {
+      "name": "IPHONE-COMPAT.md",
+      "bytes": 3229,
+      "modifiedAt": "2026-08-12T10:33:22.790Z"
+    },
+    {
+      "name": "login.html",
+      "bytes": 5121,
+      "modifiedAt": "2026-08-12T10:59:05.597Z"
+    },
+    {
+      "name": "logout.html",
+      "bytes": 2385,
+      "modifiedAt": "2026-08-12T10:59:05.597Z"
+    },
+    {
+      "name": "README.txt",
+      "bytes": 2126,
+      "modifiedAt": "2026-08-12T10:33:22.790Z"
+    },
+    {
+      "name": "redirect.html",
+      "bytes": 1361,
+      "modifiedAt": "2026-08-12T10:59:05.598Z"
+    },
+    {
+      "name": "rlogin.html",
+      "bytes": 1531,
+      "modifiedAt": "2026-08-12T10:59:05.598Z"
+    },
+    {
+      "name": "status.html",
+      "bytes": 3353,
+      "modifiedAt": "2026-08-12T10:59:05.598Z"
+    },
+    {
+      "name": "style.css",
+      "bytes": 12898,
+      "modifiedAt": "2026-08-12T10:58:50.015Z"
+    },
+    {
+      "name": "theme.js",
+      "bytes": 1113,
+      "modifiedAt": "2026-08-12T10:33:22.796Z"
+    }
+  ]
+}

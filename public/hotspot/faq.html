@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>FAQ & SOP Internet &mdash; Gracie Kost</title>
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('gracie-theme');var lt=(t==='light');if(lt)document.documentElement.setAttribute('data-theme','light');var cur=lt?'bg-morning3':'bg-night3',alt=lt?'bg-night3':'bg-morning3';var p=document.createElement('link');p.rel='preload';p.as='image';p.type='image/webp';p.setAttribute('fetchpriority','high');p.href='img/'+cur+'.webp';document.head.appendChild(p);var q=document.createElement('link');q.rel='prefetch';q.as='image';q.href='img/'+alt+'.webp';document.head.appendChild(q);}catch(e){}</script>
+</head>
+<body class="nature2">
+<button class="theme" id="themeBtn" type="button" aria-label="Ganti tema terang/gelap" onclick="toggleTheme()"></button>
+<div class="wrap" style="justify-content:flex-start">
+  <div class="brand"><span class="logo-wrap"><svg class="logo" viewBox="0 0 122 80" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="gkLogoTitle" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><title id="gkLogoTitle">Gracie Kost Hotspot</title><path d="M56 28 86 6l30 22"/><path d="M60 28v46M112 28v46"/><path d="M60 50h52"/><path d="M6 46 34 24l26 22"/><path d="M10 46v28"/><path d="M10 74h102"/><rect x="74" y="32" width="24" height="14" rx="1"/><path d="M86 32v14M74 39h24"/><rect x="74" y="56" width="24" height="14" rx="1"/><path d="M86 56v14M74 63h24"/><rect x="22" y="52" width="24" height="14" rx="1"/><path d="M34 52v14M22 59h24"/></svg></span><div class="name">Gracie Kost</div></div>
+  <div class="page">
+    <div class="topbar"><a href="login.html">&larr; Kembali ke Login</a></div>
+
+    <div class="card">
+      <h2>FAQ &mdash; Pertanyaan yang Sering Ditanya</h2>
+
+      <div class="acc">
+        <details>
+          <summary>1. Bagaimana cara login?</summary>
+          <div class="acc-body">
+            <p>Sambungkan HP/laptop ke Wi-Fi <b>Gracie Kost</b>.</p>
+            <p>Halaman login akan muncul otomatis. Kalau tidak muncul, buka browser dan ketik <b>http://gracie.kost</b> atau <b>http://192.168.88.1</b>.</p>
+            <p>Masukkan username dan password dari admin, lalu tekan <b>Login</b>.</p>
+          </div>
+        </details>
+        <details>
+          <summary>2. Lupa username atau password?</summary>
+          <div class="acc-body">
+            <p>Hubungi admin lewat WhatsApp <b>+62 858-8844-0751</b> dengan menyebut nomor kamar.</p>
+            <p>Akun akan direset pada jam kerja 08.00&ndash;21.00 WIB.</p>
+          </div>
+        </details>
+        <details>
+          <summary>3. Sudah connect tapi internet tidak jalan?</summary>
+          <div class="acc-body">
+            <p>Biasanya sesi belum login. Coba langkah berikut secara berurutan:</p>
+            <ol>
+              <li>Matikan lalu nyalakan Wi-Fi.</li>
+              <li>Buka <b>http://192.168.88.1</b> di browser.</li>
+              <li>Matikan mode &ldquo;Private/Random Wi-Fi Address&rdquo; di iPhone: Settings &rarr; Wi-Fi &rarr; tekan (i) &rarr; <b>Private Wi-Fi Address: Off</b>.</li>
+              <li>Login ulang dengan username & password.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>4. Sinyal lemah di kamar?</summary>
+          <div class="acc-body">
+            <p>Dekatkan posisi ke pintu/jendela kamar.</p>
+            <p>Hindari menaruh HP di balik lemari atau dinding beton.</p>
+            <p>Kalau tetap lemah, lapor ke admin agar posisi access point dicek.</p>
+          </div>
+        </details>
+        <details>
+          <summary>5. Sering terputus sendiri?</summary>
+          <div class="acc-body">
+            <p>Sesi otomatis berhenti bila perangkat idle lama atau kuota waktu habis.</p>
+            <p>Login ulang lewat halaman login. Jika berulang terus dalam sehari, laporkan ke admin.</p>
+          </div>
+        </details>
+        <details>
+          <summary>6. Berapa perangkat yang boleh dipakai?</summary>
+          <div class="acc-body">
+            <p>Satu akun untuk <b>maksimal 3 perangkat</b> per kamar (misal HP + laptop + tablet).</p>
+            <p>Perangkat ke-4 akan menendang sesi yang paling lama aktif.</p>
+          </div>
+        </details>
+        <details>
+          <summary>7. Cara cek sisa waktu dan pemakaian data?</summary>
+          <div class="acc-body">
+            <p>Buka <a href="status.html">halaman Status</a> setelah login.</p>
+            <p>Atau ketik <b>http://192.168.88.1/status</b> di browser.</p>
+          </div>
+        </details>
+        <details>
+          <summary>8. Bisa dipakai tamu?</summary>
+          <div class="acc-body">
+            <p>Tidak. Akun hanya untuk penghuni. Tamu bisa minta akun sementara ke admin.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Troubleshooting iPhone (Captive Portal)</h2>
+      <p class="sub">Ikuti langkah dari atas ke bawah. Buka tiap kotak untuk melihat caranya.</p>
+
+      <div class="acc">
+        <details>
+          <summary>I1. Halaman login tidak muncul otomatis</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Buka <b>Settings &rarr; Wi-Fi</b>, pastikan tersambung ke <b>Gracie Kost</b>.</li>
+              <li>Matikan <b>Data Seluler</b> sementara agar iPhone memakai Wi-Fi.</li>
+              <li>Matikan Wi-Fi, tunggu 5 detik, nyalakan lagi.</li>
+              <li>Kalau tetap tidak muncul, buka Safari dan ketik <b>http://192.168.88.1</b> (jangan https).</li>
+              <li>Masih kosong? Coba alamat <b>http://captive.apple.com</b> &mdash; halaman login akan dipaksa terbuka.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>I2. Muncul &ldquo;No Internet Connection&rdquo; padahal sudah login</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Tutup jendela captive portal, lalu buka Safari biasa.</li>
+              <li>Kunjungi satu situs http, misal <b>http://neverssl.com</b>.</li>
+              <li>Bila terbuka, koneksi sudah aktif &mdash; peringatan iPhone hanya tertinggal.</li>
+              <li>Untuk menghilangkan tanda seru: matikan lalu nyalakan Wi-Fi sekali lagi.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>I3. Sudah login tapi Safari tetap di halaman portal</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Pada halaman sukses, tekan tombol <b>Buka Browser</b>.</li>
+              <li>iOS sering menahan redirect otomatis di jendela captive portal, jadi tombol ini yang dipakai.</li>
+              <li>Jika jendela tetap diam, tekan <b>Done/Selesai</b> di pojok kiri atas lalu buka Safari sendiri.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>I4. Login berhasil tapi langsung terputus / diminta login lagi</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Cek <a href="status.html">halaman Status</a> &mdash; bila kosong berarti sesi memang putus.</li>
+              <li>Penyebab tersering: alamat Wi-Fi acak (lihat I5) atau perangkat ke-4 memakai akun yang sama (lihat I8).</li>
+              <li>Login ulang setelah memperbaiki dua hal di atas.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>I5. Matikan &ldquo;Private Wi-Fi Address&rdquo;</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Buka <b>Settings &rarr; Wi-Fi</b>.</li>
+              <li>Tekan ikon <b>(i)</b> di samping nama Wi-Fi <b>Gracie Kost</b>.</li>
+              <li>Matikan <b>Private Wi-Fi Address</b> (iOS 18: pilih <b>Rotate Wi-Fi Address: Off</b>).</li>
+              <li>Sambung ulang ke Wi-Fi, lalu login lagi.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>I6. Matikan iCloud Private Relay &amp; Lockdown Mode</summary>
+          <div class="acc-body">
+            <ol>
+              <li><b>Settings &rarr; [Nama Kamu] &rarr; iCloud &rarr; Private Relay</b> &rarr; matikan.</li>
+              <li>Atau pilih <b>Turn Off Until Tomorrow</b> khusus jaringan ini.</li>
+              <li><b>Settings &rarr; Privacy &amp; Security &rarr; Lockdown Mode</b> &rarr; pastikan mati.</li>
+              <li>Matikan juga VPN aktif bila ada.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>I7. Hapus Wi-Fi lalu sambung ulang</summary>
+          <div class="acc-body">
+            <ol>
+              <li><b>Settings &rarr; Wi-Fi &rarr; (i)</b> pada Gracie Kost.</li>
+              <li>Tekan <b>Forget This Network</b>, konfirmasi.</li>
+              <li>Pilih lagi Wi-Fi <b>Gracie Kost</b> dari daftar.</li>
+              <li>Tunggu halaman login muncul, lalu masukkan username &amp; password.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>I8. Batas 3 perangkat &mdash; keluarkan perangkat lama</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Pada perangkat lama, buka <b>http://192.168.88.1/status</b>.</li>
+              <li>Tekan <b>Logout</b>.</li>
+              <li>Kembali ke iPhone dan login ulang.</li>
+              <li>Bila perangkat lama tidak bisa diakses, minta admin memutus sesi.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>I9. Semua sudah dicoba, tetap gagal</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Restart iPhone.</li>
+              <li>Catat: tipe iPhone, versi iOS, nomor kamar, jam kejadian, dan pesan error.</li>
+              <li>Kirim ke admin WhatsApp <b>+62 858-8844-0751</b> beserta tangkapan layar.</li>
+            </ol>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>SOP Penggunaan Internet Kost</h2>
+
+      <div class="acc">
+        <details>
+          <summary>A. Akun & Perangkat</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Akun bersifat pribadi, dilarang dibagikan ke orang di luar kost.</li>
+              <li>Maksimal 3 perangkat aktif per akun.</li>
+              <li>Ganti password bila merasa akun dipakai orang lain (lapor admin).</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>B. Pemakaian yang Wajar</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Dilarang torrent, mining, atau download massal yang membebani jaringan.</li>
+              <li>Streaming video disarankan maksimal kualitas 1080p pada jam sibuk (19.00&ndash;23.00 WIB).</li>
+              <li>Dilarang memasang alat penguat/repeater atau membagi ulang Wi-Fi menjadi hotspot pribadi.</li>
+              <li>Dilarang mengubah pengaturan jaringan, memindai jaringan, atau mengakses perangkat penghuni lain.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>C. Konten & Hukum</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Dilarang mengakses atau menyebarkan konten ilegal, pornografi, judi online, dan pembajakan.</li>
+              <li>Dilarang melakukan penipuan, peretasan, atau aktivitas yang melanggar UU ITE.</li>
+              <li>Seluruh aktivitas tercatat pada log router sesuai ketentuan yang berlaku.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>D. Jam Tenang & Perawatan</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Jam tenang 23.00&ndash;05.00 WIB: mohon pakai internet tanpa mengganggu penghuni lain.</li>
+              <li>Perawatan rutin router tiap Minggu 01.00&ndash;02.00 WIB, koneksi bisa terputus sebentar.</li>
+              <li>Saat listrik padam, internet ikut mati sampai listrik kembali normal.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>E. Pelaporan Gangguan</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Laporkan gangguan ke WhatsApp admin <b>+62 858-8844-0751</b>, sertakan nomor kamar, jenis perangkat, dan jam kejadian.</li>
+              <li>Respon pada jam 08.00&ndash;21.00 WIB; di luar jam itu ditangani keesokan harinya.</li>
+            </ol>
+          </div>
+        </details>
+        <details>
+          <summary>F. Sanksi</summary>
+          <div class="acc-body">
+            <ol>
+              <li>Pelanggaran pertama: peringatan lisan.</li>
+              <li>Pelanggaran kedua: akun dinonaktifkan sementara 3 hari.</li>
+              <li>Pelanggaran berat atau berulang: akses dicabut permanen.</li>
+            </ol>
+          </div>
+        </details>
+      </div>
+
+      <div class="hr"></div>
+      <a class="btn" href="login.html">Kembali ke Login</a>
+    </div>
+    <div class="foot" style="margin-bottom:24px">&copy; Gracie Kost &mdash; Purwokerto</div>
+  </div>
+</div>
+<script src="theme.js"></script>
+</body>
+</html>
