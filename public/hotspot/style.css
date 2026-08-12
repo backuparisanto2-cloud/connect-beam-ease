@@ -404,3 +404,13 @@ html:not([data-theme="light"]) .fx .moon,html:not([data-theme="light"]) .fx .sta
 .fx .star:nth-of-type(28){left:76.6%;top:31.7%;width:3.0px;height:3.0px;animation-duration:178s,5.0s;animation-delay:-50s,-5.9s}
 .fx .star:nth-of-type(29){left:79.2%;top:75.6%;width:2.1px;height:2.1px;animation-duration:179s,3.3s;animation-delay:-31s,-2.1s}
 .fx .star:nth-of-type(30){left:3.7%;top:27.1%;width:1.2px;height:1.2px;animation-duration:183s,3.3s;animation-delay:-38s,-5.7s}
+
+/* Varian resolusi rendah untuk layar kecil ber-DPR rendah */
+@media (max-width:640px) and (max-resolution:1.5dppx){
+  body{background-image:url("img/bg-night1-sm.webp")}
+  body.nature{background-image:url("img/bg-night2-sm.webp")}
+  body.nature2{background-image:url("img/bg-night3-sm.webp")}
+  html[data-theme="light"] body{background-image:url("img/bg-morning1-sm.webp")}
+  html[data-theme="light"] body.nature{background-image:url("img/bg-morning2-sm.webp")}
+  html[data-theme="light"] body.nature2{background-image:url("img/bg-morning3-sm.webp")}
+}
