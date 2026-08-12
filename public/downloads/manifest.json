@@ -1,24 +1,24 @@
 {
   "archive": "griya-arca-hotspot.zip",
-  "builtAt": "2026-08-12T12:09:29.787Z",
+  "builtAt": "2026-08-12T12:12:35.761Z",
   "fileCount": 21,
-  "zipBytes": 255148,
-  "totalBytes": 299562,
+  "zipBytes": 256953,
+  "totalBytes": 303185,
   "files": [
     {
       "name": "alogin.html",
-      "bytes": 5723,
-      "modifiedAt": "2026-08-12T12:09:19.372Z"
+      "bytes": 5928,
+      "modifiedAt": "2026-08-12T12:12:35.444Z"
     },
     {
       "name": "error.html",
-      "bytes": 2352,
-      "modifiedAt": "2026-08-12T12:09:19.373Z"
+      "bytes": 2557,
+      "modifiedAt": "2026-08-12T12:12:35.444Z"
     },
     {
       "name": "faq.html",
-      "bytes": 13521,
-      "modifiedAt": "2026-08-12T12:09:19.373Z"
+      "bytes": 13726,
+      "modifiedAt": "2026-08-12T12:12:35.444Z"
     },
     {
       "name": "img/bg-morning1.webp",
@@ -67,18 +67,18 @@
     },
     {
       "name": "login.html",
-      "bytes": 7465,
-      "modifiedAt": "2026-08-12T12:09:19.373Z"
+      "bytes": 7670,
+      "modifiedAt": "2026-08-12T12:12:35.444Z"
     },
     {
       "name": "logout.html",
-      "bytes": 2550,
-      "modifiedAt": "2026-08-12T12:09:19.373Z"
+      "bytes": 2755,
+      "modifiedAt": "2026-08-12T12:12:35.445Z"
     },
     {
       "name": "preload.js",
-      "bytes": 936,
-      "modifiedAt": "2026-08-12T12:09:13.098Z"
+      "bytes": 2919,
+      "modifiedAt": "2026-08-12T12:12:20.262Z"
     },
     {
       "name": "README.txt",
@@ -87,18 +87,18 @@
     },
     {
       "name": "redirect.html",
-      "bytes": 1506,
-      "modifiedAt": "2026-08-12T12:09:19.373Z"
+      "bytes": 1711,
+      "modifiedAt": "2026-08-12T12:12:35.446Z"
     },
     {
       "name": "rlogin.html",
-      "bytes": 3847,
-      "modifiedAt": "2026-08-12T12:09:19.373Z"
+      "bytes": 4052,
+      "modifiedAt": "2026-08-12T12:12:35.446Z"
     },
     {
       "name": "status.html",
-      "bytes": 3514,
-      "modifiedAt": "2026-08-12T12:09:19.374Z"
+      "bytes": 3719,
+      "modifiedAt": "2026-08-12T12:12:35.446Z"
     },
     {
       "name": "style.css",
