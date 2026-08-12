@@ -20,7 +20,7 @@ body.nature{background-image:url("img/bg-night2.webp")}
 body.nature2{background-image:url("img/bg-night3.webp")}
 body::before{
   content:"";position:fixed;inset:0;
-  background:linear-gradient(180deg,rgba(4,8,18,.55) 0%,rgba(4,8,18,.72) 55%,rgba(2,5,12,.9) 100%);
+  background:linear-gradient(180deg,rgba(4,8,18,.20) 0%,rgba(4,8,18,.34) 55%,rgba(2,5,12,.58) 100%);
   z-index:0;
 }
 
@@ -244,7 +244,7 @@ html[data-theme="light"] body{background-color:#eaf1f6;background-image:url("img
 html[data-theme="light"] body.nature{background-image:url("img/bg-morning2.webp")}
 html[data-theme="light"] body.nature2{background-image:url("img/bg-morning3.webp")}
 html[data-theme="light"] body::before{
-  background:linear-gradient(180deg,rgba(255,250,238,.34) 0%,rgba(252,248,240,.5) 50%,rgba(238,242,250,.7) 100%);
+  background:linear-gradient(180deg,rgba(255,250,238,.12) 0%,rgba(252,248,240,.22) 50%,rgba(238,242,250,.4) 100%);
 }
 
 html[data-theme="light"] .brand .name{color:#141210;text-shadow:0 1px 8px rgba(255,255,255,.95)}
@@ -288,3 +288,74 @@ html[data-theme="light"] .page h2{color:#1c1917}
 }
 .theme svg{width:22px;height:22px}
 html[data-theme="light"] .theme{border-color:rgba(120,90,70,.4);background:rgba(255,250,245,.6);color:#1c1917}
+
+/* ===== Lapisan suasana: kunang-kunang (gelap) & burung sawah (terang) ===== */
+.fx{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.fx .ff,.fx .bird{position:absolute;will-change:transform,opacity}
+
+/* Kunang-kunang */
+.fx .ff{
+  width:5px;height:5px;border-radius:50%;
+  background:radial-gradient(circle,#fff3b0 0%,rgba(255,214,90,.85) 40%,rgba(255,190,40,0) 70%);
+  box-shadow:0 0 10px 3px rgba(255,203,80,.35);
+  opacity:0;animation:ffFloat linear infinite,ffGlow ease-in-out infinite;
+}
+@keyframes ffFloat{
+  0%{transform:translate3d(0,0,0)}
+  25%{transform:translate3d(26px,-34px,0)}
+  50%{transform:translate3d(-18px,-62px,0)}
+  75%{transform:translate3d(30px,-96px,0)}
+  100%{transform:translate3d(0,-130px,0)}
+}
+@keyframes ffGlow{0%,100%{opacity:0}12%{opacity:.15}50%{opacity:.95}78%{opacity:.25}}
+.fx .ff:nth-child(1){left:6%;top:72%;animation-duration:17s,3.1s;animation-delay:0s,.2s}
+.fx .ff:nth-child(2){left:14%;top:84%;animation-duration:21s,2.4s;animation-delay:1.4s,0s}
+.fx .ff:nth-child(3){left:23%;top:66%;animation-duration:15s,3.8s;animation-delay:2.6s,.8s}
+.fx .ff:nth-child(4){left:31%;top:90%;animation-duration:23s,2.9s;animation-delay:.6s,1.5s}
+.fx .ff:nth-child(5){left:39%;top:76%;animation-duration:19s,3.4s;animation-delay:3.2s,.4s}
+.fx .ff:nth-child(6){left:47%;top:88%;animation-duration:16s,2.6s;animation-delay:1.9s,1.1s}
+.fx .ff:nth-child(7){left:55%;top:70%;animation-duration:22s,3.6s;animation-delay:4.1s,.9s}
+.fx .ff:nth-child(8){left:63%;top:82%;animation-duration:18s,2.8s;animation-delay:2.2s,1.8s}
+.fx .ff:nth-child(9){left:71%;top:92%;animation-duration:20s,3.2s;animation-delay:.3s,.6s}
+.fx .ff:nth-child(10){left:78%;top:68%;animation-duration:24s,2.5s;animation-delay:3.7s,1.3s}
+.fx .ff:nth-child(11){left:85%;top:86%;animation-duration:17s,3.9s;animation-delay:1.1s,.2s}
+.fx .ff:nth-child(12){left:92%;top:74%;animation-duration:21s,2.7s;animation-delay:4.6s,1.6s}
+.fx .ff:nth-child(13){left:44%;top:60%;animation-duration:26s,3.3s;animation-delay:5.2s,.5s}
+.fx .ff:nth-child(14){left:66%;top:58%;animation-duration:25s,3.5s;animation-delay:2.9s,1.9s}
+
+/* Burung sawah */
+.fx .bird{right:-14vw;color:rgba(40,48,60,.62);opacity:0;animation:birdFly linear infinite}
+.fx .bird svg{display:block;width:100%;height:auto;animation:birdFlap ease-in-out infinite}
+@keyframes birdFly{
+  0%{transform:translate3d(0,0,0);opacity:0}
+  6%{opacity:.85}
+  40%{transform:translate3d(-45vw,-4vh,0)}
+  70%{transform:translate3d(-80vw,3vh,0)}
+  94%{opacity:.85}
+  100%{transform:translate3d(-120vw,-2vh,0);opacity:0}
+}
+@keyframes birdFlap{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.45)}}
+.fx .bird:nth-of-type(1){top:16%;width:44px;animation-duration:26s;animation-delay:0s}
+.fx .bird:nth-of-type(1) svg{animation-duration:.62s}
+.fx .bird:nth-of-type(2){top:22%;width:30px;animation-duration:34s;animation-delay:3s}
+.fx .bird:nth-of-type(2) svg{animation-duration:.5s}
+.fx .bird:nth-of-type(3){top:11%;width:36px;animation-duration:30s;animation-delay:8s}
+.fx .bird:nth-of-type(3) svg{animation-duration:.72s}
+.fx .bird:nth-of-type(4){top:28%;width:24px;animation-duration:40s;animation-delay:13s}
+.fx .bird:nth-of-type(4) svg{animation-duration:.56s}
+.fx .bird:nth-of-type(5){top:34%;width:20px;animation-duration:46s;animation-delay:19s}
+.fx .bird:nth-of-type(5) svg{animation-duration:.66s}
+.fx .bird:nth-of-type(6){top:19%;width:28px;animation-duration:37s;animation-delay:24s}
+.fx .bird:nth-of-type(6) svg{animation-duration:.58s}
+
+/* Tampil sesuai tema */
+.fx .bird{display:none}
+html[data-theme="light"] .fx .ff{display:none}
+html[data-theme="light"] .fx .bird{display:block}
+
+@media (prefers-reduced-motion:reduce){
+  .fx{display:none}
+}
+@media (prefers-contrast:more){
+  .fx{display:none}
+}
