@@ -1,18 +1,19 @@
-# Langit Malam: Bintang Bergerak + Cahaya Bulan
+# Preload Gambar WebP Semua Halaman
 
-Menambah suasana malam pada halaman hotspot (mode gelap saja), melengkapi animasi kunang-kunang yang sudah ada.
+Tujuan: halaman hotspot terasa instan saat berpindah (login → status/logout/faq) tanpa membuat halaman pertama jadi berat.
 
-## Yang ditambahkan
+## Yang dilakukan
 
-- Bulan purnama di sudut atas langit dengan cahaya lembut (halo/glow) yang berdenyut sangat pelan, plus sedikit pantulan cahaya di area langit sekitarnya.
-- Bintang-bintang di langit: sekitar 30 titik kecil dengan ukuran dan kecerahan berbeda, berkelip halus dan bergeser perlahan melintasi langit (rotasi lambat ~150–240 detik) sehingga terasa hidup tanpa mengganggu.
-- Beberapa bintang lebih besar mendapat kilau silang tipis.
-- Semua hanya muncul di mode gelap; di mode terang tetap burung sawah dan tidak ada elemen malam.
+1. Selesaikan dulu pekerjaan berjalan: bangun ulang `griya-arca-hotspot.zip` dan verifikasi tampilan malam (bulan + bintang bergerak).
+2. Strategi pemuatan gambar bertingkat di semua halaman (`login`, `alogin`, `rlogin`, `status`, `logout`, `faq`, `error`, `redirect`):
+   - **Preload prioritas tinggi**: hanya 1 gambar latar WebP yang benar-benar dipakai halaman itu sesuai tema jam WIB (sudah ada, dipertahankan).
+   - **Prefetch prioritas rendah setelah halaman selesai dimuat**: sisa gambar latar WebP (`bg-morning1..3`, `bg-night1..3`) diminta di latar belakang, jadi halaman berikutnya dan pergantian tema tampil tanpa jeda. Dijalankan pada event `load` + `requestIdleCallback` supaya tidak menyaingi konten utama.
+   - Favicon dan `logo.svg` sudah ringan, tetap seperti sekarang.
+3. Semua latar sudah berformat WebP; tidak ada JPG/PNG besar yang perlu dikonversi. Total 6 latar ≈ 218 KB, aman di-cache lokal router.
 
 ## Catatan teknis
 
-- Murni CSS + elemen kosong di dalam lapisan `.fx` yang sudah ada, tanpa JavaScript, agar tetap ringan di MikroTik hotspot.
-- `public/hotspot/style.css`: tambah keyframes `starDrift`, `starTwinkle`, `moonGlow`; kelas `.star`, `.starfield`, `.moon` dengan aturan tampil hanya saat `html:not([data-theme="light"])`, dan disembunyikan pada `prefers-reduced-motion` (bintang tetap tampil statis, hanya animasi dimatikan).
-- `login.html`, `alogin.html`, `rlogin.html`: tambah `<div class="starfield">` berisi titik bintang dan `<i class="moon">` di dalam `.fx`. Halaman lain (status/logout/faq/error/redirect) ikut jika memakai `.fx`; jika belum, ditambahkan agar konsisten.
-- Elemen berada di bawah kartu login (z-index lapisan `.fx` tidak berubah) dan `aria-hidden`.
-- Bangun ulang `griya-arca-hotspot.zip` lewat `scripts/zip-hotspot.mjs`, lalu verifikasi tampilan malam dengan screenshot.
+- Tambah skrip kecil bersama (`preload.js`, ±10 baris) yang di-`<script defer src>` semua halaman, isinya membuat `<link rel="prefetch" as="image">` untuk daftar latar yang belum dipakai.
+- Skrip berjalan setelah `load`, jadi tidak menambah waktu render awal.
+- Skrip inline di `<head>` tetap hanya memuat 1 latar aktif (`fetchpriority=high`) agar first paint tetap cepat.
+- Bangun ulang ZIP hotspot lewat `scripts/zip-hotspot.mjs` dan cek jaringan/urutan permintaan dengan Playwright.
