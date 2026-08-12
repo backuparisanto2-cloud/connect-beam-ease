@@ -2,7 +2,7 @@ type BrandLogoProps = {
   className?: string;
 };
 
-/** Logo Gracie Kost Hotspot — rumah kembar garis, mengikuti warna teks (currentColor). */
+/** Logo Griya Arca Kost Hotspot — rumah kembar garis, mengikuti warna teks (currentColor). */
 export function BrandLogo({
   className = "h-8 w-auto max-w-full shrink-0 sm:h-10 md:h-12",
 }: BrandLogoProps) {
@@ -11,7 +11,7 @@ export function BrandLogo({
       viewBox="0 0 122 80"
       preserveAspectRatio="xMidYMid meet"
       role="img"
-      aria-label="Gracie Kost Hotspot"
+      aria-label="Griya Arca Kost Hotspot"
       fill="none"
       stroke="currentColor"
       strokeWidth={3.6}
@@ -20,7 +20,7 @@ export function BrandLogo({
       vectorEffect="non-scaling-stroke"
       className={className}
     >
-      <title>Gracie Kost Hotspot</title>
+      <title>Griya Arca Kost Hotspot</title>
 
       <path d="M56 28 86 6l30 22" />
       <path d="M60 28v46M112 28v46" />

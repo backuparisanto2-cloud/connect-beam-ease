@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { BrandLogo } from "@/components/BrandLogo";
 
-const TITLE = "Hotspot Gracie Kost — File Login MikroTik";
+const TITLE = "Hotspot Griya Arca Kost — File Login MikroTik";
 const DESC =
-  "Unduh file halaman login hotspot MikroTik Gracie Kost Purwokerto: login, status, logout, error, plus FAQ dan SOP internet kost.";
+  "Unduh file halaman login hotspot MikroTik Griya Arca Kost Purwokerto: login, status, logout, error, plus FAQ dan SOP internet kost.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -38,7 +38,7 @@ function Index() {
       <div className="mx-auto w-full max-w-2xl">
         <div className="flex items-center gap-3 text-foreground">
           <BrandLogo className="h-8 w-auto max-w-full shrink-0 text-foreground sm:h-10 md:h-12" />
-          <span className="text-sm font-medium text-muted-foreground">Gracie Kost — Purwokerto</span>
+          <span className="text-sm font-medium text-muted-foreground">Griya Arca Kost — Purwokerto</span>
         </div>
         <h1 className="mt-1 text-2xl font-bold text-foreground sm:text-3xl">
           File Halaman Hotspot MikroTik

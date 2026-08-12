@@ -1,9 +1,9 @@
-/* Gracie Kost — tema terang/gelap, dipakai semua halaman */
+/* Griya Arca Kost — tema terang/gelap, dipakai semua halaman */
 function toggleTheme(){
   var h=document.documentElement,cur=h.getAttribute('data-theme')==='light'?'light':'dark';
   var next=cur==='light'?'dark':'light';
-  if(next==='light'){h.setAttribute('data-theme','light');try{localStorage.setItem('gracie-theme','light');}catch(e){}}
-  else{h.removeAttribute('data-theme');try{localStorage.removeItem('gracie-theme');}catch(e){}}
+  if(next==='light'){h.setAttribute('data-theme','light');try{localStorage.setItem('griya-arca-theme','light');}catch(e){}}
+  else{h.removeAttribute('data-theme');try{localStorage.removeItem('griya-arca-theme');}catch(e){}}
   paintTheme();
 }
 function paintTheme(){

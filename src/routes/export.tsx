@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { BrandLogo } from "@/components/BrandLogo";
 
-const TITLE = "Export Paket Hotspot (ZIP) — Gracie Kost";
+const TITLE = "Export Paket Hotspot (ZIP) — Griya Arca Kost";
 const DESC =
-  "Unduh satu folder lengkap berisi seluruh file halaman hotspot MikroTik Gracie Kost, termasuk gambar latar, dalam format ZIP siap upload.";
+  "Unduh satu folder lengkap berisi seluruh file halaman hotspot MikroTik Griya Arca Kost, termasuk gambar latar, dalam format ZIP siap upload.";
 
 export const Route = createFileRoute("/export")({
   head: () => ({
@@ -41,7 +41,7 @@ const CONTENT: { name: string; desc: string }[] = [
 ];
 
 const STEPS = [
-  "Unduh dan ekstrak gracie-hotspot.zip — isinya satu folder bernama hotspot.",
+  "Unduh dan ekstrak griya-arca-hotspot.zip — isinya satu folder bernama hotspot.",
   "Buka Winbox → menu Files, lalu hapus/backup folder hotspot bawaan router.",
   "Drag semua isi folder hotspot hasil ekstrak ke folder hotspot di router (atau upload via FTP ke /hotspot).",
   "Pastikan sub-folder img ikut terupload agar gambar latar tampil.",
@@ -55,7 +55,7 @@ function ExportPage() {
       <div className="mx-auto w-full max-w-2xl">
         <div className="flex items-center gap-3 text-foreground">
           <BrandLogo className="h-8 w-auto max-w-full shrink-0 text-foreground sm:h-10 md:h-12" />
-          <span className="text-sm font-medium text-muted-foreground">Gracie Kost — Purwokerto</span>
+          <span className="text-sm font-medium text-muted-foreground">Griya Arca Kost — Purwokerto</span>
         </div>
         <a href="/" className="text-sm font-medium text-muted-foreground">
           &larr; Kembali
@@ -68,12 +68,12 @@ function ExportPage() {
         </p>
 
         <div className="mt-6 rounded-2xl border border-border p-5">
-          <p className="font-mono text-sm font-semibold text-foreground">gracie-hotspot.zip</p>
+          <p className="font-mono text-sm font-semibold text-foreground">griya-arca-hotspot.zip</p>
           <p className="mt-1 text-xs text-muted-foreground">
             {CONTENT.length} berkas · ±135 KB · termasuk folder img
           </p>
           <a
-            href="/downloads/gracie-hotspot.zip"
+            href="/downloads/griya-arca-hotspot.zip"
             download
             className="mt-4 inline-flex min-h-12 items-center rounded-full bg-primary px-6 text-sm font-semibold text-primary-foreground"
           >
