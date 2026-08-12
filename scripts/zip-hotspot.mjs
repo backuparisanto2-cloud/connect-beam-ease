@@ -1,4 +1,4 @@
-// Mengemas seluruh isi public/hotspot menjadi public/downloads/gracie-hotspot.zip
+// Mengemas seluruh isi public/hotspot menjadi public/downloads/griya-arca-hotspot.zip
 import { readdir, readFile, mkdir, writeFile, stat } from "node:fs/promises";
 import { join, relative } from "node:path";
 import JSZip from "jszip";
@@ -6,7 +6,7 @@ import JSZip from "jszip";
 const ROOT = new URL("..", import.meta.url).pathname;
 const SRC = join(ROOT, "public/hotspot");
 const OUT_DIR = join(ROOT, "public/downloads");
-const OUT = join(OUT_DIR, "gracie-hotspot.zip");
+const OUT = join(OUT_DIR, "griya-arca-hotspot.zip");
 
 async function walk(dir) {
   const out = [];
@@ -41,7 +41,7 @@ for (const f of files) {
 entries.sort((a, b) => a.name.localeCompare(b.name));
 
 const manifest = {
-  archive: "gracie-hotspot.zip",
+  archive: "griya-arca-hotspot.zip",
   builtAt: new Date().toISOString(),
   fileCount: entries.length,
   zipBytes: s.size,
@@ -53,7 +53,7 @@ await mkdir(join(ROOT, "src/data"), { recursive: true });
 await writeFile(join(OUT_DIR, "manifest.json"), JSON.stringify(manifest, null, 2));
 await writeFile(join(ROOT, "src/data/hotspot-manifest.json"), JSON.stringify(manifest, null, 2));
 await writeFile(
-  join(OUT_DIR, "gracie-hotspot.json"),
+  join(OUT_DIR, "griya-arca-hotspot.json"),
   JSON.stringify({ files: files.length, bytes: s.size, builtAt: manifest.builtAt }, null, 2),
 );
 console.log(`zip-hotspot: ${files.length} file -> ${(s.size / 1024).toFixed(0)} KB`);

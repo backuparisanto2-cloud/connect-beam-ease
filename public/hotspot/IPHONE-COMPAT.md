@@ -1,6 +1,6 @@
-# Panduan Kompatibilitas iPhone — Gracie Kost Hotspot
+# Panduan Kompatibilitas iPhone — Griya Arca Kost Hotspot
 
-Halaman hotspot Gracie Kost dirancang agar tampil benar di Safari iOS
+Halaman hotspot Griya Arca Kost dirancang agar tampil benar di Safari iOS
 pada semua ukuran layar iPhone (iPhone 8 sampai iPhone 15 Pro Max dan terbaru).
 Panduan ini menjelaskan poin-poin penting yang sudah diterapkan serta tips
 untuk pengguna.
@@ -37,14 +37,14 @@ Halaman hanya berhenti di layar "Berhasil Login" tanpa lanjut ke internet.
 ## Tips Safari iOS
 
 - **Alamat Wi-Fi Privat** (Private Wi-Fi Address): bila login terus gagal
-  padahal kredensial benar, matikan fitur ini untuk jaringan Gracie Kost:
-  Pengaturan → Wi-Fi → ketuk (i) di samping Gracie Kost → matikan
+  padahal kredensial benar, matikan fitur ini untuk jaringan Griya Arca Kost:
+  Pengaturan → Wi-Fi → ketuk (i) di samping Griya Arca Kost → matikan
   "Alamat Wi-Fi Privat".
 - **Private Relay / VPN**: matikan dulu saat pertama kali login, nyalakan
   kembali setelah internet aktif.
 - **Zoom**: jangan pinch-zoom; halaman sengaja dibuat tanpa zoom agar
   tombol besar dan tidak geser. Ukuran font input 16px sudah aman.
-- **AutoFill**: Safari dapat mengingat username/password Gracie Kost.
+- **AutoFill**: Safari dapat mengingat username/password Griya Arca Kost.
   Izinkan saat diminta agar login berikutnya cepat.
 
 ## Pengecekan layar berbeda

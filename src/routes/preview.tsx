@@ -2,9 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { BrandLogo } from "@/components/BrandLogo";
 
-const TITLE = "Pratinjau Halaman Login Hotspot — Gracie Kost";
+const TITLE = "Pratinjau Halaman Login Hotspot — Griya Arca Kost";
 const DESC =
-  "Lihat pratinjau halaman login, status, dan FAQ hotspot MikroTik Gracie Kost dalam bingkai iPhone 8 hingga iPhone 15 Pro Max.";
+  "Lihat pratinjau halaman login, status, dan FAQ hotspot MikroTik Griya Arca Kost dalam bingkai iPhone 8 hingga iPhone 15 Pro Max.";
 
 export const Route = createFileRoute("/preview")({
   head: () => ({
@@ -47,7 +47,7 @@ function PreviewPage() {
       <div className="mx-auto w-full max-w-3xl">
         <div className="flex items-center gap-3 text-foreground">
           <BrandLogo className="h-8 w-auto max-w-full shrink-0 text-foreground sm:h-10 md:h-12" />
-          <span className="text-sm font-medium text-muted-foreground">Gracie Kost — Purwokerto</span>
+          <span className="text-sm font-medium text-muted-foreground">Griya Arca Kost — Purwokerto</span>
         </div>
         <a href="/" className="text-sm font-medium text-muted-foreground">
           &larr; Kembali

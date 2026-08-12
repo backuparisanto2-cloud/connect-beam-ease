@@ -2,9 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import manifest from "@/data/hotspot-manifest.json";
 import { BrandLogo } from "@/components/BrandLogo";
 
-const TITLE = "Manifest Paket Hotspot — Gracie Kost";
+const TITLE = "Manifest Paket Hotspot — Griya Arca Kost";
 const DESC =
-  "Daftar lengkap 14 berkas di dalam gracie-hotspot.zip beserta ukuran file dan tanggal build paket hotspot MikroTik Gracie Kost.";
+  "Daftar lengkap 14 berkas di dalam griya-arca-hotspot.zip beserta ukuran file dan tanggal build paket hotspot MikroTik Griya Arca Kost.";
 
 export const Route = createFileRoute("/manifest")({
   head: () => ({
@@ -61,7 +61,7 @@ function ManifestPage() {
       <div className="mx-auto w-full max-w-2xl">
         <div className="flex items-center gap-3 text-foreground">
           <BrandLogo className="h-8 w-auto max-w-full shrink-0 text-foreground sm:h-10 md:h-12" />
-          <span className="text-sm font-medium text-muted-foreground">Gracie Kost — Purwokerto</span>
+          <span className="text-sm font-medium text-muted-foreground">Griya Arca Kost — Purwokerto</span>
         </div>
         <a href="/export" className="text-sm font-medium text-muted-foreground">
           &larr; Kembali ke Export
@@ -111,7 +111,7 @@ function ManifestPage() {
 
         <div className="mt-6 flex flex-wrap gap-3">
           <a
-            href="/downloads/gracie-hotspot.zip"
+            href="/downloads/griya-arca-hotspot.zip"
             download
             className="inline-flex min-h-11 items-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground"
           >
