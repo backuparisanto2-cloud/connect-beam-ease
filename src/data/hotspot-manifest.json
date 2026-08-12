@@ -1,24 +1,29 @@
 {
   "archive": "griya-arca-hotspot.zip",
-  "builtAt": "2026-08-12T12:12:35.761Z",
-  "fileCount": 21,
-  "zipBytes": 256953,
-  "totalBytes": 303185,
+  "builtAt": "2026-08-12T12:15:10.510Z",
+  "fileCount": 27,
+  "zipBytes": 346200,
+  "totalBytes": 392640,
   "files": [
     {
       "name": "alogin.html",
-      "bytes": 5928,
-      "modifiedAt": "2026-08-12T12:12:35.444Z"
+      "bytes": 6042,
+      "modifiedAt": "2026-08-12T12:14:59.084Z"
     },
     {
       "name": "error.html",
-      "bytes": 2557,
-      "modifiedAt": "2026-08-12T12:12:35.444Z"
+      "bytes": 2671,
+      "modifiedAt": "2026-08-12T12:14:59.084Z"
     },
     {
       "name": "faq.html",
-      "bytes": 13726,
-      "modifiedAt": "2026-08-12T12:12:35.444Z"
+      "bytes": 13840,
+      "modifiedAt": "2026-08-12T12:14:59.084Z"
+    },
+    {
+      "name": "img/bg-morning1-sm.webp",
+      "bytes": 20848,
+      "modifiedAt": "2026-08-12T12:14:19.715Z"
     },
     {
       "name": "img/bg-morning1.webp",
@@ -26,9 +31,19 @@
       "modifiedAt": "2026-08-12T11:40:06.694Z"
     },
     {
+      "name": "img/bg-morning2-sm.webp",
+      "bytes": 24084,
+      "modifiedAt": "2026-08-12T12:14:19.986Z"
+    },
+    {
       "name": "img/bg-morning2.webp",
       "bytes": 55166,
       "modifiedAt": "2026-08-12T11:40:06.694Z"
+    },
+    {
+      "name": "img/bg-morning3-sm.webp",
+      "bytes": 25162,
+      "modifiedAt": "2026-08-12T12:14:20.261Z"
     },
     {
       "name": "img/bg-morning3.webp",
@@ -36,14 +51,29 @@
       "modifiedAt": "2026-08-12T11:40:06.695Z"
     },
     {
+      "name": "img/bg-night1-sm.webp",
+      "bytes": 2322,
+      "modifiedAt": "2026-08-12T12:14:20.438Z"
+    },
+    {
       "name": "img/bg-night1.webp",
       "bytes": 6144,
       "modifiedAt": "2026-08-12T11:40:06.695Z"
     },
     {
+      "name": "img/bg-night2-sm.webp",
+      "bytes": 10184,
+      "modifiedAt": "2026-08-12T12:14:20.652Z"
+    },
+    {
       "name": "img/bg-night2.webp",
       "bytes": 31148,
       "modifiedAt": "2026-08-12T11:40:06.696Z"
+    },
+    {
+      "name": "img/bg-night3-sm.webp",
+      "bytes": 5166,
+      "modifiedAt": "2026-08-12T12:14:20.808Z"
     },
     {
       "name": "img/bg-night3.webp",
@@ -67,18 +97,18 @@
     },
     {
       "name": "login.html",
-      "bytes": 7670,
-      "modifiedAt": "2026-08-12T12:12:35.444Z"
+      "bytes": 7784,
+      "modifiedAt": "2026-08-12T12:14:37.683Z"
     },
     {
       "name": "logout.html",
-      "bytes": 2755,
-      "modifiedAt": "2026-08-12T12:12:35.445Z"
+      "bytes": 2869,
+      "modifiedAt": "2026-08-12T12:14:59.085Z"
     },
     {
       "name": "preload.js",
-      "bytes": 2919,
-      "modifiedAt": "2026-08-12T12:12:20.262Z"
+      "bytes": 3141,
+      "modifiedAt": "2026-08-12T12:15:10.063Z"
     },
     {
       "name": "README.txt",
@@ -87,23 +117,23 @@
     },
     {
       "name": "redirect.html",
-      "bytes": 1711,
-      "modifiedAt": "2026-08-12T12:12:35.446Z"
+      "bytes": 1825,
+      "modifiedAt": "2026-08-12T12:14:59.085Z"
     },
     {
       "name": "rlogin.html",
-      "bytes": 4052,
-      "modifiedAt": "2026-08-12T12:12:35.446Z"
+      "bytes": 4166,
+      "modifiedAt": "2026-08-12T12:14:59.090Z"
     },
     {
       "name": "status.html",
-      "bytes": 3719,
-      "modifiedAt": "2026-08-12T12:12:35.446Z"
+      "bytes": 3833,
+      "modifiedAt": "2026-08-12T12:14:59.090Z"
     },
     {
       "name": "style.css",
-      "bytes": 21868,
-      "modifiedAt": "2026-08-12T12:08:01.757Z"
+      "bytes": 22423,
+      "modifiedAt": "2026-08-12T12:14:37.391Z"
     },
     {
       "name": "theme.js",
