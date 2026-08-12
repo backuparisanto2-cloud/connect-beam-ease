@@ -1,10 +1,17 @@
-/* Griya Arca Kost — tema terang/gelap, dipakai semua halaman */
+/* Griya Arca Kost — tema otomatis mengikuti jam WIB (UTC+7) */
+function wibHour(){return Math.floor((((Date.now()/3600000)+7)%24+24)%24);}
+function autoTheme(){var h=wibHour();return (h>=6&&h<18)?'light':'dark';}
+function overrideTheme(){try{return sessionStorage.getItem('griya-arca-theme');}catch(e){return null;}}
+function applyTheme(t){var h=document.documentElement;
+  if(t==='light')h.setAttribute('data-theme','light');else h.removeAttribute('data-theme');
+  paintTheme();}
+function syncTheme(){applyTheme(overrideTheme()||autoTheme());}
 function toggleTheme(){
-  var h=document.documentElement,cur=h.getAttribute('data-theme')==='light'?'light':'dark';
+  var cur=document.documentElement.getAttribute('data-theme')==='light'?'light':'dark';
   var next=cur==='light'?'dark':'light';
-  if(next==='light'){h.setAttribute('data-theme','light');try{localStorage.setItem('griya-arca-theme','light');}catch(e){}}
-  else{h.removeAttribute('data-theme');try{localStorage.removeItem('griya-arca-theme');}catch(e){}}
-  paintTheme();
+  try{if(next===autoTheme())sessionStorage.removeItem('griya-arca-theme');else sessionStorage.setItem('griya-arca-theme',next);}catch(e){}
+  try{localStorage.removeItem('griya-arca-theme');}catch(e){}
+  applyTheme(next);
 }
 function paintTheme(){
   var l=document.documentElement.getAttribute('data-theme')==='light';
@@ -15,3 +22,6 @@ function paintTheme(){
     :'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>';
 }
 paintTheme();
+
+syncTheme();
+setInterval(syncTheme,60000);
