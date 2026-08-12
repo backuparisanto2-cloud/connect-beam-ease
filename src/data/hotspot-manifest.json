@@ -1,24 +1,24 @@
 {
   "archive": "griya-arca-hotspot.zip",
-  "builtAt": "2026-08-12T12:00:24.293Z",
+  "builtAt": "2026-08-12T12:04:53.356Z",
   "fileCount": 20,
-  "zipBytes": 252460,
-  "totalBytes": 289830,
+  "zipBytes": 253171,
+  "totalBytes": 291100,
   "files": [
     {
       "name": "alogin.html",
-      "bytes": 4921,
-      "modifiedAt": "2026-08-12T12:00:23.994Z"
+      "bytes": 5017,
+      "modifiedAt": "2026-08-12T12:04:35.766Z"
     },
     {
       "name": "error.html",
-      "bytes": 2215,
-      "modifiedAt": "2026-08-12T11:53:55.763Z"
+      "bytes": 2311,
+      "modifiedAt": "2026-08-12T12:04:35.767Z"
     },
     {
       "name": "faq.html",
-      "bytes": 13384,
-      "modifiedAt": "2026-08-12T11:53:55.763Z"
+      "bytes": 13480,
+      "modifiedAt": "2026-08-12T12:04:35.767Z"
     },
     {
       "name": "img/bg-morning1.webp",
@@ -67,13 +67,13 @@
     },
     {
       "name": "login.html",
-      "bytes": 6663,
-      "modifiedAt": "2026-08-12T12:00:23.994Z"
+      "bytes": 6759,
+      "modifiedAt": "2026-08-12T12:04:35.767Z"
     },
     {
       "name": "logout.html",
-      "bytes": 2413,
-      "modifiedAt": "2026-08-12T11:53:55.763Z"
+      "bytes": 2509,
+      "modifiedAt": "2026-08-12T12:04:35.767Z"
     },
     {
       "name": "README.txt",
@@ -82,18 +82,18 @@
     },
     {
       "name": "redirect.html",
-      "bytes": 1369,
-      "modifiedAt": "2026-08-12T11:53:55.763Z"
+      "bytes": 1465,
+      "modifiedAt": "2026-08-12T12:04:35.767Z"
     },
     {
       "name": "rlogin.html",
-      "bytes": 3045,
-      "modifiedAt": "2026-08-12T12:00:23.994Z"
+      "bytes": 3141,
+      "modifiedAt": "2026-08-12T12:04:35.767Z"
     },
     {
       "name": "status.html",
-      "bytes": 3377,
-      "modifiedAt": "2026-08-12T11:53:55.763Z"
+      "bytes": 3473,
+      "modifiedAt": "2026-08-12T12:04:35.767Z"
     },
     {
       "name": "style.css",
@@ -102,8 +102,8 @@
     },
     {
       "name": "theme.js",
-      "bytes": 1125,
-      "modifiedAt": "2026-08-12T11:50:38.620Z"
+      "bytes": 1627,
+      "modifiedAt": "2026-08-12T12:04:45.801Z"
     }
   ]
 }
