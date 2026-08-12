@@ -7,13 +7,16 @@
 */
 (function () {
   var ALL = ['bg-morning1', 'bg-morning2', 'bg-morning3', 'bg-night1', 'bg-night2', 'bg-night3'];
-  var CACHE = 'griya-arca-img-v1';
+  var CACHE = 'griya-arca-img-v2';
   var conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection || {};
   var saveData = !!conn.saveData;
   var slow = /(^|-)2g$/.test(conn.effectiveType || '');
   var mobile = Math.min(screen.width, screen.height) <= 640 ||
     /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
   var light = document.documentElement.getAttribute('data-theme') === 'light';
+  var dpr = window.devicePixelRatio || 1;
+  // layar kecil ber-DPR rendah cukup varian -sm (480px), sisanya varian penuh (900px)
+  var SFX = (Math.min(screen.width, screen.height) <= 640 && dpr <= 1.5) ? '-sm' : '';
 
   // urutan prioritas: latar tema aktif dulu, lalu tema lawan
   var pref = light ? ['bg-morning1', 'bg-morning2', 'bg-morning3'] : ['bg-night1', 'bg-night2', 'bg-night3'];
@@ -22,7 +25,7 @@
 
   if (saveData || slow) queue = []; // hemat data: cukup latar aktif saja
 
-  function url(n) { return 'img/' + n + '.webp'; }
+  function url(n) { return 'img/' + n + SFX + '.webp'; }
 
   function idle(fn, t) {
     if (window.requestIdleCallback) requestIdleCallback(fn, { timeout: t || 4000 });
