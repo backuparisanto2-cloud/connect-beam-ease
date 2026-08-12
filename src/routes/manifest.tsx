@@ -60,8 +60,8 @@ function ManifestPage() {
     <main className="min-h-screen bg-background px-5 py-10">
       <div className="mx-auto w-full max-w-2xl">
         <div className="flex items-center gap-3 text-foreground">
-          <BrandLogo className="h-8 w-auto max-w-full shrink-0 text-foreground sm:h-10 md:h-12" />
-          <span className="text-sm font-medium text-muted-foreground">Griya Arca Kost — Purwokerto</span>
+          <BrandLogo className="h-10 w-auto max-w-full shrink-0 text-foreground sm:h-12 md:h-14" />
+          <span className="text-sm font-medium text-muted-foreground">Purwokerto, Jawa Tengah</span>
         </div>
         <a href="/export" className="text-sm font-medium text-muted-foreground">
           &larr; Kembali ke Export
