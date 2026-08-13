@@ -21,7 +21,9 @@ CARA UPLOAD KE ROUTER
 3. Drag semua file di folder ini ke dalam folder "hotspot" di router,
    termasuk folder "img". Timpa file yang sama namanya.
 4. PENTING: jangan hapus file md5.js bawaan MikroTik di folder hotspot,
-   file itu dipakai untuk login CHAP.
+   file itu dipakai untuk login CHAP. Paket ini juga menyertakan md5.js
+   cadangan (dipakai hanya bila milik router gagal dimuat); aman ditimpa
+   maupun didampingkan.
 5. Bisa juga upload via FTP: ftp://IP-ROUTER  (user admin), masuk ke /hotspot.
 
 AGAR HALAMAN & GAMBAR TAMPIL SEBELUM LOGIN
